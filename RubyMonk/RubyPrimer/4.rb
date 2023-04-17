@@ -26,3 +26,5 @@ puts 25 < 24 || false                     # False, becuase both sides are false
 # Make something that won't allow a value
 ! (name == 'Bob')                         # Won't accept Bob as a value
 
+# Wrapping in parenthesis can help
+age >= 23 && (name == 'Bob' || name == 'Jill')
