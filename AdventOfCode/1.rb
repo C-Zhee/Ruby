@@ -1,4 +1,4 @@
-num_array = [1755,
+$num_array = [1755,
 1668,
 837,
 1900,
@@ -205,20 +205,16 @@ num_array = [1755,
 # puts num_array
 
 
-def sum(x,y)
-    num_array.each { |y| y + y = 2020 }
-    if y + y = 2020
-        puts true
-    else
-        false
-    end
-end
+# def sum(x, y)
+#     $num_array.each { |num1| puts num1 + num1 == 2020 }
+#     if y + y == 2020
+#         puts true
+#     else
+#         false
+#     end
+# end
 
-sum(num_array,num_array)
-
-
-
-
+# sum(100,100)
 
 # for i in (1..20)
 #     puts i % 2 == 0        will say true or false for all valuess between 1-20 that are even
@@ -235,3 +231,7 @@ sum(num_array,num_array)
 # puts sum(num_array[11],num_array[20])
 # puts num_array[11] 
 # puts num_array[20] 
+
+number = 2020
+
+while 
