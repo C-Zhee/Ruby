@@ -54,3 +54,9 @@ loop do
   puts "Hello"
   break
 end 
+
+def ring(bell, n)
+  n.times do
+  bell.ring
+  end
+end    
